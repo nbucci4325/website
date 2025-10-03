@@ -1,0 +1,59 @@
+# --------------------
+# General
+# --------------------
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+.history/
+
+# Logs
+*.log
+
+# Node / frontend dependencies (if you ever use npm/yarn)
+node_modules/
+dist/
+build/
+
+# --------------------
+# Python
+# --------------------
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.env
+.venv
+env/
+venv/
+
+# Package build directories
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+wheels/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.mypy_cache/
+.pyre/
+.pytype/
+
+# --------------------
+# Other
+# --------------------
+# Environment & secrets
+*.env
+.env.*
+secrets.json
+
+# SQLite databases (if you use Django/Flask dev DB)
+*.sqlite3
